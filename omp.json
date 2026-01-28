@@ -1,0 +1,91 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "final_space": true,
+  "version": 3,
+  "blocks": [
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        {
+          "type": "python",
+          "style": "plain",
+          "background": "trasparent",
+          "foreground": "#45f1c2",
+          "template": "{{ if .Venv }}({{ .Venv }}){{ end }} ",
+          "properties": {
+            "home_enabled": true,
+            "fetch_virtual_env": true,
+            "display_mode": "environment"
+          }
+        },
+        {
+          "type": "path",
+          "style": "plain",
+          "background": "trasparent",
+          "foreground": "#61afef",
+          "template": "{{ .Path }}",
+          "properties": {
+            "style": "full",
+            "folder_separator_icon": "/",
+            "mapped_locations": {
+              "%homepath%": "~",
+              "c:/": "/"
+            }
+          }
+        },
+        {
+          "type": "git",
+          "style": "plain",
+          "background": "trasparent",
+          "foreground": "#14a5ae",
+          "template": " [{{ .HEAD }}]",
+          "properties": {
+            "branch_icon": null
+          }
+        }
+      ]
+    },
+    {
+      "type": "prompt",
+      "alignment": "right",
+      "segments": [
+        {
+          "type": "executiontime",
+          "style": "plain",
+          "background": "trasparent",
+          "foreground": "#ffffff",
+          "template": "{{ .FormattedMs }} · ",
+          "properties": {
+            "threshold": 1,
+            "style": "austin"
+          }
+        },
+        {
+          "type": "time",
+          "style": "plain",
+          "background": "trasparent",
+          "foreground": "#ffffff",
+          "template": "{{ .CurrentDate | date .Format }}",
+          "properties": {
+            "time_format": "15:04:05"
+          }
+        }
+      ]
+    },
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "newline": true,
+      "segments": [
+        {
+          "type": "text",
+          "style": "plain",
+          "background": "trasparent",
+          "foreground": "#ffffff",
+          "template": "{{ if .Root }}#{{ else }}${{ end }}"
+        }
+      ]
+    }
+  ]
+}
