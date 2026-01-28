@@ -1,0 +1,7 @@
+[user]
+	name = Alex Occelli
+	email = occelli.alex@gmail.com
+[init]
+	defaultBranch = main
+[credential]
+	helper = cache
