@@ -1,0 +1,12 @@
+[
+  { "keys": ["alt+r"], "command": "permute_lines", "args": { "operation": "reverse" } },
+  { "keys": ["alt+t"], "command": "trim" },
+  { "keys": ["alt+u"], "command": "permute_lines", "args": { "operation": "unique" } },
+  { "keys": ["alt+w"], "command": "toggle_setting", "args": { "setting": "word_wrap" } },
+  { "keys": ["alt+c"], "command": "toggle_comment", "args": { "block": false } },
+  { "keys": ["ctrl+alt+t"], "command": "terminus_open", "args": { "cwd": "${file_path:${folder}}" } },
+  { "keys": ["ctrl+alt+l"], "command": "terminus_open", "args": { "config_name": "<ask>" } },
+  { "keys": ["ctrl+alt+m"], "command": "on_row_string" },
+  { "keys": ["ctrl+alt+n"], "command": "on_row_number" },
+  { "keys": ["shift+f9"], "command": "sort_by_selection" }
+]

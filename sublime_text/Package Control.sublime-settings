@@ -1,0 +1,15 @@
+{
+	"bootstrapped": true,
+	"auto_upgrade": true,
+	"install_missing": true,
+	"remove_orphaned": true,
+
+	"in_process_packages": [],
+	"installed_packages": [
+		"Advanced CSV",
+		"Origami",
+		"Package Control",
+		"rainbow_csv",
+		"Terminus"
+	],
+}

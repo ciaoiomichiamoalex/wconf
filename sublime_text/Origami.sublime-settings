@@ -1,0 +1,6 @@
+{
+  "create_new_pane_if_necessary": true,
+  "auto_zoom_on_focus": false,
+  "auto_close_empty_panes": true,
+  "destroy_empty_panes": true
+}
