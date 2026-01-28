@@ -1,0 +1,9 @@
++sync:.megaignore
++:.git
++:.gitignore
++:.idea
++:.obsidian
++:.venv
++s:*
+-:*.egg-info
+-:__pycache__
