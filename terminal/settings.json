@@ -1,0 +1,98 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": [],
+    "centerOnLaunch": true,
+    "copyFormatting": "none",
+    "copyOnSelect": true,
+    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    "initialCols": 70,
+    "initialRows": 20,
+    "keybindings": 
+    [
+        {
+            "id": "Terminal.CopyToClipboard",
+            "keys": "ctrl+c"
+        },
+        {
+            "id": "Terminal.PasteFromClipboard",
+            "keys": "ctrl+v"
+        },
+        {
+            "id": "Terminal.DuplicatePaneAuto",
+            "keys": "alt+shift+d"
+        }
+    ],
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "profiles": 
+    {
+        "defaults": 
+        {
+            "adjustIndistinguishableColors": "indexed",
+            "bellStyle": 
+            [
+                "audible",
+                "taskbar"
+            ],
+            "colorScheme": "One Half Dark",
+            "cursorShape": "underscore",
+            "experimental.repositionCursorWithMouse": true,
+            "font": 
+            {
+                "face": "JetBrains Mono NL",
+                "size": 13
+            },
+            "intenseTextStyle": "all",
+            "pathTranslationStyle": "wsl",
+            "scrollbarState": "hidden",
+            "showMarksOnScrollbar": true
+        },
+        "list": 
+        [
+            {
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -nologo",
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Powershell"
+            },
+            {
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": true,
+                "name": "CMD"
+            },
+            {
+                "guid": "{6d0d8f29-592d-570b-9318-dfc01a3205d3}",
+                "hidden": false,
+                "icon": "ms-appx:///ProfileIcons/{9acb9455-ca41-5af7-950f-6bca1bc9722f}.png",
+                "name": "Unix",
+                "source": "Microsoft.WSL"
+            },
+            {
+                "commandline": "%ProgramFiles%\\Python313\\python.exe -q",
+                "guid": "{07c793f8-71de-48ee-b3bf-fb10f7698c00}",
+                "hidden": false,
+                "icon": "%ProgramFiles%\\Python313\\Lib\\test\\tkinterdata\\python.png",
+                "name": "PY"
+            },
+            {
+                "commandline": "%ProgramFiles%\\PostgreSQL\\17\\bin\\psql.exe -q \"postgres://postgres:password@localhost:5432/postgres\"",
+                "guid": "{0db47a27-a873-4c2d-a1e1-da6c13b8d6dd}",
+                "hidden": false,
+                "icon": "%AppData%\\PostgreSQL\\pgadmin4.ico",
+                "name": "PSQL"
+            }
+        ]
+    },
+    "schemes": [],
+    "showTerminalTitleInTitlebar": false,
+    "theme": "dark",
+    "themes": [],
+    "warning.confirmCloseAllTabs": false,
+    "windowingBehavior": "useExisting"
+}
