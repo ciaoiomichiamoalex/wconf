@@ -8,5 +8,6 @@
   { "keys": ["ctrl+alt+l"], "command": "terminus_open", "args": { "config_name": "<ask>" } },
   { "keys": ["ctrl+alt+m"], "command": "on_row_string" },
   { "keys": ["ctrl+alt+n"], "command": "on_row_number" },
-  { "keys": ["shift+f9"], "command": "sort_by_selection" }
+  { "keys": ["shift+f9"], "command": "sort_by_selection" },
+  { "keys": ["ctrl+shift+z"], "command": "show_undo_tree" }
 ]
