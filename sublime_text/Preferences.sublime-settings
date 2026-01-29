@@ -237,6 +237,7 @@
 
 	"goto_anything_exclude_gitignore": false,
 	"goto_anything_file_preview": true,
+	"relative_line_numbers": true,
 	"ignored_packages": [
 		"Vintage",
 	],
