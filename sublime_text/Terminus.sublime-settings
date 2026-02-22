@@ -12,7 +12,7 @@
       "name": "CMD",
       "cmd": "cmd.exe",
       "env": {},
-      "enable": true,
+      "enable": false,
       "platforms": ["windows"]
     },
     {
