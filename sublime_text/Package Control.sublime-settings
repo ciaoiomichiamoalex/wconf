@@ -13,4 +13,7 @@
 		"Terminus",
 		"UndoTree"
 	],
+	"repositories": [
+		"https://github.com/randy3k/Terminus"
+	]
 }
